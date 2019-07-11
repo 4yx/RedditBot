@@ -44,7 +44,7 @@ module.exports.check = function(message) {
         }
     }
 
-    if (message.content.startsWith('<@485047416291065859>')) {
+    if (message.content.startsWith('help')) {
         help(message)
     }
 
