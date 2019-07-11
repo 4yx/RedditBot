@@ -5,11 +5,10 @@ async function invite(message) {
     try {
             const embed = {
                     title: 'I have a link for you:',
-                    description: turndownService.turndown(`<a href="https://discordapp.com/oauth2/authorize?client_id=485047416291065859&scope=bot&permissions=0">Click here to invite me!</a>`),
+                    description: turndownService.turndown(`<a href="https://discordapp.com/oauth2/authorize?client_id=545356515754639475&permissions=8&scope=bot">Click here to invite me!</a>`),
                     color: 16729344,
                     footer: {
-                    icon_url: 'https://hackbrightacademy.com/content/uploads/2018/08/Reddit-logo.png',
-                    text: 'Reddit Bot by SerekKiri & MiXerek',
+                    text: 'Reddit Bot by IcyzDevelopment',
                 }
             }
 
