@@ -41,8 +41,7 @@ async function user(message) {
                       }
                 ],
                 footer: {
-                    text: 'Reddit Bot by SerekKiri & MiXerek',
-                    icon_url: "https://hackbrightacademy.com/content/uploads/2018/08/Reddit-logo.png"
+                    text: 'Reddit Bot by IcyzDevelopment'
                 },
             }
             message.channel.send({ embed })
