@@ -41,8 +41,6 @@ function redditPostToEmbed(post) {
     url: `https://www.reddit.com${text.permalink}`,
     author: {
       name: text.author,
-      icon_url:
-        "https://i.kym-cdn.com/photos/images/newsfeed/000/919/691/9e0.png"
     },
     description: des,
     timestamp: date,
@@ -51,9 +49,7 @@ function redditPostToEmbed(post) {
     },
     color: 16729344,
     footer: {
-      text: "Reddit Bot by SerekKiri & MiXerek",
-      icon_url:
-        "https://hackbrightacademy.com/content/uploads/2018/08/Reddit-logo.png"
+      text: "Reddit Bot by IcyzDevelopment"
     },
     "fields": [
       {
