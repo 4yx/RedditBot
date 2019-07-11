@@ -10,6 +10,10 @@
     "type": "git",
     "url": "reddit-bot"
   },
+   "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
   "keywords": [
     "reddit"
   ],
